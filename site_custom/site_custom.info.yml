@@ -1,0 +1,9 @@
+name: 'Site Custom Configurations'
+type: module
+description: 'Base module to install or update configurations on the go.'
+core: 8.x
+version: 1.0
+package: Custom Configurations
+dependencies:
+  - drupal:rest
+  - drupal:basic_auth

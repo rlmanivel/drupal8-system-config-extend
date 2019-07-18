@@ -1,0 +1,10 @@
+id: page_json
+plugin_id: page_json
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
+      - basic_auth
